@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* Typical device breakpoints
+
+celular - @media only screen and (max-width: 600px) {...}
+tablet (portrait) - @media only screen and (min-width: 600px) {...}
+tablet (landscape) - @media only screen and (min-width: 768px) {...}
+desktop - @media only screen and (min-width: 992px) {...}
+tv - @media only screen and (min-width: 1200px) {...}
+
+*/
+
