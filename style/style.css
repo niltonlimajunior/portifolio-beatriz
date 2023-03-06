@@ -25,9 +25,10 @@ header {
    
 }
 
-span#menu {
-    display: block;
-    top: 150px calc(-50%);
+span#burguer {
+    position: absolute;
+    top: 120px;
+    right: 50vw;
 }
 
 nav {
