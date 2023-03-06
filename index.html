@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/mediaqueries.css">
 </head>
-<body>
+<body onresize="tamanhoMenu()">
     <header>
-        <h1>Beatriz Lima</h1>
-        <span id="burguer" class="material-icons">menu</span>
-        <nav id="itens">
+        <div id="logo"><img src="images/logo.png" alt=""></div>
+        <span id="burguer" class="material-icons" onclick="abrirMenu()">menu</span>
+        <nav id="menu">
             <ul>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Sobre mim</a></li>
@@ -27,14 +27,28 @@
         <section>
             <article></article>
         </section>
-        
     </main>
     <footer>
 
 
     </footer>
     <script>
-        
+        function tamanhoMenu() {
+            if (window.innerWidth >= 768) {
+                menu.style.display = 'inline-block'
+            }
+            else {
+                menu.style.display = 'none'
+            }
+        }
+        function abrirMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            }
+            else {
+                menu.style.display = 'block'
+            }
+        }
     </script>
 </body>
 </html>

@@ -10,3 +10,19 @@ tv - @media only screen and (min-width: 1200px) {...}
 
 */
 
+@media screen and (min-width: 768px) {
+    span#burguer {
+        display: none;
+    }
+    nav li {
+        display: inline-block;
+        border: none;
+        
+    }
+    nav a {
+       padding: 10px 40px;
+    }
+    nav li::after {
+        content: "|";
+    }
+}
