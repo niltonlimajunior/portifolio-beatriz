@@ -5,15 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beatriz Lima</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/mediaqueries.css">
 </head>
-<body onresize="tamanhoMenu()">
+<body>
     <header>
-        <div id="logo"><img src="images/logo.png" alt=""></div>
-        <span id="burguer" class="material-icons" onclick="abrirMenu()">menu</span>
-        <nav id="menu">
+        <h1>Logo</h1>
+        <nav>
             <ul>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Sobre mim</a></li>
@@ -29,26 +27,8 @@
         </section>
     </main>
     <footer>
-
-
+       
     </footer>
-    <script>
-        function tamanhoMenu() {
-            if (window.innerWidth >= 768) {
-                menu.style.display = 'block'
-            }
-            else {
-                menu.style.display = 'none'
-            }
-        }
-        function abrirMenu() {
-            if (menu.style.display == 'block') {
-                menu.style.display = 'none'
-            }
-            else {
-                menu.style.display = 'block'
-            }
-        }
-    </script>
+    <script src="script/script.js"></script>
 </body>
 </html>
