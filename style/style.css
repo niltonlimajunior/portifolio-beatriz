@@ -32,23 +32,14 @@ header {
 }
 
 header > h1#logo {
-    display: block;
     margin: auto;  
-}
-
-#botaoMobile {
-    
-}
-
-nav {
-    
 }
 
 nav ul {
     position: absolute;
+    top: 150px;
     width: 100%;
     right: 0px;
-    margin-top: 130px;
     background-color: #F5E8E5;
     z-index: 1;
 }

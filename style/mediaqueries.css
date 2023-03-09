@@ -10,3 +10,13 @@ tv - @media only screen and (min-width: 1200px) {...}
 
 */
 
+@media screen and (min-width: 768){
+    #menu {
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    nav button#botao-Mobile {
+        display: none;
+    }
+}
