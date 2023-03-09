@@ -15,33 +15,58 @@
 }
 
 * {
-    
+    padding: 0px;
+    margin: 0px;
 }
 
 html, body {
     height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
 header {
+    display: flex;
+    box-sizing: border-box;
     background-color: var(--cor-003);
-    height: 200px;
+    height: 150px;
+    justify-content: space-between;
 }
 
-header > h1 {
-    text-align: center;
+header > h1#logo {
+    display: block;
+    margin: auto;  
 }
+
+#botaoMobile {
+    
+}
+
 nav {
-    display: flex;
-    justify-content: center;
+    
+}
+
+nav ul {
+    position: absolute;
+    width: 100%;
+    right: 0px;
+    margin-top: 130px;
+    background-color: #F5E8E5;
+    z-index: 1;
 }
 
 nav li {
+    line-height: 5em;
     text-align: center;
     list-style-type: none;
 }
 nav a {
-    
+    display: block;
+    cursor: pointer;
+    color: var(--cor-001);
+    padding: .5em;
     text-decoration: none;
+    border-bottom: 2px solid var(--cor-002);
+}
+
+nav a:hover {
+    background-color: var(--cor-002);
 }

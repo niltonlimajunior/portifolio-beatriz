@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/mediaqueries.css">
 </head>
-<body>
-    <header>
-        <h1>Logo</h1>
-        <nav>
-            <ul>
+<body onresize="query()">
+    <header id="header">
+        <h1 id="logo"><img src="images/logo.png" alt=""></h1>
+        <nav id="nav">
+            <button id="botao-Mobile" onclick="clickmenu()">Menu</button>
+            <ul id="menu"> 
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Sobre mim</a></li>
                 <li><a href="#">Portifólio</a></li>
@@ -29,6 +30,23 @@
     <footer>
        
     </footer>
-    <script src="script/script.js"></script>
+    <script>
+        function query() {
+            if (window.innerWidth >=768) {
+                menu.style.display = 'block' 
+            } else {
+                menu.style.display = 'none'
+            }
+        }
+
+
+        function clickmenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
