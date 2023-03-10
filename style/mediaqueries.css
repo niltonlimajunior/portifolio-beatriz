@@ -10,13 +10,28 @@ tv - @media only screen and (min-width: 1200px) {...}
 
 */
 
-@media screen and (min-width: 768){
-    #menu {
-        display: flex;
-        justify-content: space-around;
-        
+@media screen and (min-width: 768px) {
+    header {
+        height: 178px;
     }
-    nav button#botao-Mobile {
+    
+    #botaoMobile {
         display: none;
+    }
+    #menu {
+        justify-content: center;
+        gap: 75px;
+        padding-bottom: 10px;
+    }
+    nav a {
+        border-radius: 10px;
+        border-bottom: none;
+    }
+    nav a:hover {
+        background-color: var(--cor-002);
+    }
+    nav li {
+        padding: 0px;
+        border: none;
     }
 }

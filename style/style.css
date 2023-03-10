@@ -6,7 +6,7 @@
         #A07968
         #EFD9D5
         #F5E8E5
-*/       
+*/
 
 :root {
     --cor-001: #A07968;
@@ -35,7 +35,12 @@ header > h1#logo {
     margin: auto;  
 }
 
+#botaoMobile {
+    display: block;
+}
+
 nav ul {
+    display: none;
     position: absolute;
     top: 150px;
     width: 100%;
@@ -45,19 +50,39 @@ nav ul {
 }
 
 nav li {
-    line-height: 5em;
+    padding: 30px;
     text-align: center;
     list-style-type: none;
-}
-nav a {
-    display: block;
-    cursor: pointer;
-    color: var(--cor-001);
-    padding: .5em;
-    text-decoration: none;
     border-bottom: 2px solid var(--cor-002);
 }
+nav a {
+    
+    cursor: pointer;
+    color: var(--cor-001);
+    text-decoration: none;
+    
+}
 
-nav a:hover {
-    background-color: var(--cor-002);
+#botaoMobile {
+    position: absolute;
+    right: 20px;
+    top: 110px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+#hamburguer {
+    width: 20px;
+    border-top: 1px solid black;
+    background-color: var(--cor-003);
+}
+#hamburguer::after, #hamburguer::before {
+    content: '';
+    border-top: 1px solid black;
+    display: block;
+    width: 20px;
+    margin-top: 3px;
+    background-color: var(--cor-003);
 }
