@@ -24,6 +24,7 @@ tv - @media only screen and (min-width: 1200px) {...}
         padding-bottom: 10px;
     }
     nav a {
+        padding: 7px 10px;
         border-radius: 10px;
         border-bottom: none;
     }
@@ -33,5 +34,8 @@ tv - @media only screen and (min-width: 1200px) {...}
     nav li {
         padding: 0px;
         border: none;
+    }
+    nav ul {
+        display: flex;
     }
 }
