@@ -23,6 +23,17 @@ html, body {
     height: 100vh;
 }
 
+body {
+    background-color: lightgray;
+}
+
+main {
+    margin: auto;
+    background-color: white;
+    width: 90vw;
+    height: 80vh;
+}
+
 header {
     display: flex;
     box-sizing: border-box;
@@ -56,11 +67,9 @@ nav li {
     border-bottom: 2px solid var(--cor-002);
 }
 nav a {
-    
     cursor: pointer;
     color: var(--cor-001);
     text-decoration: none;
-    
 }
 
 #botaoMobile {

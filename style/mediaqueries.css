@@ -30,6 +30,7 @@ tv - @media only screen and (min-width: 1200px) {...}
     }
     nav a:hover {
         background-color: var(--cor-002);
+        
     }
     nav li {
         padding: 0px;
