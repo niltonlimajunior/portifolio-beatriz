@@ -24,14 +24,14 @@ html, body {
 }
 
 body {
-    background-color: lightgray;
+    
+
 }
 
 main {
     margin: auto;
     background-color: white;
-    width: 90vw;
-    height: 80vh;
+
 }
 
 header {
@@ -39,7 +39,7 @@ header {
     box-sizing: border-box;
     background-color: var(--cor-003);
     height: 150px;
-    justify-content: space-between;
+    
 }
 
 header > h1#logo {
@@ -58,6 +58,9 @@ nav ul {
     right: 0px;
     background-color: #F5E8E5;
     z-index: 1;
+
+    
+
 }
 
 nav li {
@@ -77,20 +80,19 @@ nav a {
     right: 20px;
     top: 100px;
     border: none;
-    padding: 15px;
-    cursor: pointer;
     background-color: var(--cor-003);
 }
 
 #hamburguer {
+    cursor: pointer;
     width: 30px;
     border-top: 2px solid var(--cor-001);
     display: block;
 }
 #hamburguer::after, #hamburguer::before {
     content: '';
-    border-top: 2px solid var(--cor-001);
     display: block;
+    border-top: 2px solid var(--cor-001);
     width: 30px;
     margin-top: 5px;
 }
