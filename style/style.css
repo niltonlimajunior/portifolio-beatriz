@@ -96,3 +96,31 @@ nav a {
     width: 30px;
     margin-top: 5px;
 }
+
+section#apresentaçao {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding: 20px;
+    width: 90vw;
+    margin: auto;
+
+}
+
+article.imagem-projetos img {
+    max-width: 250px;
+    
+}
+
+article.imagem-projetos {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    max-width: 250px;
+}
+
+article.imagem-projetos p {
+    margin-top: 30px;
+}
