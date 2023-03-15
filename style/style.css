@@ -120,3 +120,10 @@ article.imagem-projetos {
 article.imagem-projetos p {
     margin-top: 30px;
 }
+
+div#parallax1 {
+    background: black url('../images/parallax1.jpg') center top no-repeat fixed;
+    
+    height: 500px;
+    width: 100%;
+}
