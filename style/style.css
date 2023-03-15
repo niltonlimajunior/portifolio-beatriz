@@ -65,6 +65,7 @@ nav li {
     border-bottom: 2px solid var(--cor-002);
 }
 nav a {
+    padding: 20px 100px;
     cursor: pointer;
     color: var(--cor-001);
     text-decoration: none;
