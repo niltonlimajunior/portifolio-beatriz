@@ -26,7 +26,6 @@ html, body {
 main {
     margin: auto;
     background-color: white;
-
 }
 
 header {
@@ -96,12 +95,14 @@ nav a {
 section#apresentaçao {
     display: flex;
     flex-wrap: wrap;
+    
     align-items: center;
     justify-content: space-evenly;
     gap: 30px;
     padding: 20px;
     width: 90vw;
     margin: auto;
+    
 
 }
 

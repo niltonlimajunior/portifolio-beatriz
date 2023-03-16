@@ -82,12 +82,24 @@ tv - @media only screen and (min-width: 1200px) {...}
         padding-top: 70px;
         width: 1200px;
         margin: auto;
+        height: 670px;
     
     }
+    
 }
 
 @media screen and (min-width: 2000px) {
     main {
         width: 1920px;
+    }
+    
+}
+
+/* Versão para impressão */
+
+@media print {
+    nav#nav {
+        display: none;
+        
     }
 }
